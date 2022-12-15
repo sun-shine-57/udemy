@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Udemy Clone</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
                 <img src="img/udemy-logo.png" alt="udemy">
             </a>
         </div>
-        <div class="caregory">Categories</div>
+        <div class="category">Categories</div>
         <div id="search-box">
             <a href="#">
                 <img class="search-btn" src="img/search-icon.png">
@@ -23,7 +24,7 @@
         <div class="header-text">Udemy Business</div>
         <div class="header-text">Teach on Udemy</div>
         <a href="#">
-            <img src="img/shopping-cart.png">
+            <img class="cart" src="img/shopping-cart.png">
         </a>
         <button id ="log-in">
             <a href="#">log in</a>
@@ -40,12 +41,12 @@
 
         <div id="home-top">
             <div class="left-box">
-                <h1>Holiday Sales ends today</h1>
+                <h1 id="font">Holiday Sales ends today</h1>
                 <p>Courses are now as low as ₹499. Get an extra 15% off the sale price with code GIFT15.</p>
             </div>
         </div>
-        <div class="course-selection">
-            <h1 id="title">A broad selection of courses</h1>
+        <div class="course-section">
+            <h1 id="font" class="marg">A broad selection of courses</h1>
             <p>Choose from 213,000 online video courses with new additions published every month</p>
             <div id="course">
                 <a href="#" id="a1">Python</a>
@@ -58,7 +59,7 @@
             </div>
         </div>
 
-        <div id="course-video">
+        <div class="course-video">
             <h1>Expand your career opportunities with Python</h1>
             <div class="para">
                 <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to</p>
